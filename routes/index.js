@@ -12,25 +12,21 @@ if (process.env.JAWSDB_URL){
     connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
     connection = mysql.createConnection({
-        //host: "td5l74lo6615qq42.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-        //database: "sosbxf9opvllpwal",
-        //user: "u1emj7frzaensog3",
-        //password: "z4u6hedv5mece8ho"
-        host: "localhost",
-        database: "burgers",
-        user: "root",
-        password: ""
+        host: "td5l74lo6615qq42.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        database: "sosbxf9opvllpwal",
+        user: "u1emj7frzaensog3",
+        password: "z4u6hedv5mece8ho"
     });
 }
 
-//conn.connect(function(error){
-//    if (error){
-//        console.log("coneccion con error", error);
+conn.connect(function(error){
+    if (error){
+        console.log("coneccion con error", error);
         //throw error;
-//    }else{
-//        console.log("coneccion existosa");
-//    }
-//})
+    }else{
+        console.log("coneccion existosa");
+    }
+})
 
 var PORT = process.env.PORT || 3000;
 

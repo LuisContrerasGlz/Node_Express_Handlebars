@@ -2,9 +2,9 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "./routes/index2.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./routes/index2.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
