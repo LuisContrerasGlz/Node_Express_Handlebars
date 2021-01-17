@@ -10,4 +10,6 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 
 App stores every burger in a database, whether devoured or not.
 
+Video of working app: https://youtu.be/UVcFmKDc-nk
+
 ![alt text](./cap.png)
