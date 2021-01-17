@@ -1,4 +1,4 @@
-Node Express Handlebars
+# Node Express Handlebars
 
 This is a burger logger. For this the MVC design pattern is used; used Node and MySQL to query and route data in the app.
 
@@ -9,3 +9,5 @@ Whenever a user submits a burger's name, app will display the burger on the left
 Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 
 App stores every burger in a database, whether devoured or not.
+
+![alt text](./cap.png)
