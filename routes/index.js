@@ -7,6 +7,7 @@ const json_notes=fs.readFileSync('./db/db.json','utf-8');
 //let notes=JSON.parse(json_notes);
 
 var mysql = require("mysql");
+const conn;
 
 if (process.env.JAWSDB_URL){
     conn = mysql.createConnection(process.env.JAWSDB_URL);
