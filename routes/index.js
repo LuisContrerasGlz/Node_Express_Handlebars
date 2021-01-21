@@ -9,7 +9,7 @@ const json_notes=fs.readFileSync('./db/db.json','utf-8');
 var mysql = require("mysql");
 
 if (process.env.JAWSDB_URL){
-    connection = mysql.createConnection(process.env.JAWSDB_URL);
+    conn = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
     conn = mysql.createConnection({
         host: "localhost",
